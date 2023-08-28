@@ -1,7 +1,7 @@
 const NEW_USER = {
     firstName : "John",
     lastName : "2",
-    email: Date.now() + 'johndoe@example.com',
+    email: Date.now() + "johndoe@example.com",
     numberPhone: "+380 50 111 22 33",
     password: "123456789",
     passwordConfirm: "123456789",
