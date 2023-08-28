@@ -27,6 +27,8 @@ module.exports = {
     I.fillField(this.passwordConfirmField, user.passwordConfirm)
   },
 
-
+verifySuccessfullRegistration(){
+  
+}
 
 }

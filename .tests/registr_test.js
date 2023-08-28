@@ -1,6 +1,6 @@
 const NEW_USER = {
     firstName : "John",
-    lastName : "45",
+    lastName : "2",
     email: Date.now() + 'johndoe@example.com',
     numberPhone: "+380 50 111 22 33",
     password: "123456789",
@@ -11,16 +11,16 @@ const NEW_USER = {
 
 Feature('registr');
 
-Scenario(' click, fill,see',  ({ I, basePage}) => {
-    I.amOnPage('/');
-    basePage.clickMyAccount();
-    basePage.clickRegister();
+// Scenario(' click, fill,see',  ({ I, basePage}) => {
+//     I.amOnPage('/');
+//     basePage.clickMyAccount();
+//     basePage.clickRegister();
    
     
 
    
-    pause();
-});
+   
+// });
 
 
 // Scenario(' grab',  ({ I }) => {
@@ -38,7 +38,7 @@ Scenario(' click, fill,see',  ({ I, basePage}) => {
 //     pause();
 // });
 
-xScenario(' register new user',  ({ I, basePage, accountPage}) => {
+Scenario(' register new user',  ({ I, basePage, accountPage}) => {
     I.amOnPage('/');
     basePage.clickMyAccount();
     basePage.clickRegister();
